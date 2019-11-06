@@ -1,0 +1,10 @@
+What does MD5 mean?
+ 
+
+MD5 is the abbreviation of 'Message-Digest algorithm 5'.
+The MD5 algorithm is used as an encryption or fingerprint function for a file.
+Often used to encrypt database passwords, MD5 is also able to generate a file thumbprint to ensure that a file is identical after a transfer for example.
+An MD5 hash is composed of 32 hexadecimal characters.
+Enter a word in the MD5 encryption form above to know the corresponding MD5 hash
+
+Words in the database: 1,154,869,787,597

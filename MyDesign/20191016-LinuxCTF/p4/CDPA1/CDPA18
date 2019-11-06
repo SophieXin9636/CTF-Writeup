@@ -1,0 +1,21 @@
+Adversarial Robustness 360 Toolbox (ART) is a Python library supporting developers and researchers in defending Machine Learning models (Deep Neural Networks, Gradient Boosted Decision Trees, Support Vector Machines, Random Forests, Logistic Regression, Gaussian Processes, Decision Trees, Scikit-learn Pipelines, etc.) against adversarial threats and helps making AI systems more secure and trustworthy. Machine Learning models are vulnerable to adversarial examples, which are inputs (images, texts, tabular data, etc.) deliberately modified to produce a desired response by the Machine Learning model. ART provides the tools to build and deploy defences and test them with adversarial attacks.
+
+Defending Machine Learning models involves certifying and verifying model robustness and model hardening with approaches such as pre-processing inputs, augmenting training data with adversarial samples, and leveraging runtime detection methods to flag any inputs that might have been modified by an adversary. The attacks implemented in ART allow creating adversarial attacks against Machine Learning models which is required to test defenses with state-of-the-art threat models.
+
+Documentation of ART: https://adversarial-robustness-toolbox.readthedocs.io
+
+Get started with examples and tutorials
+
+The library is under continuous development. Feedback, bug reports and contributions are very welcome. Get in touch with us on Slack (invite here)!
+
+Supported Machine Learning Libraries and Applications
+TensorFlow (v1 and v2) (www.tensorflow.org)
+Keras (www.keras.io)
+PyTorch (www.pytorch.org)
+MXNet (https://mxnet.apache.org)
+Scikit-learn (www.scikit-learn.org)
+XGBoost (www.xgboost.ai)
+LightGBM (https://lightgbm.readthedocs.io)
+CatBoost (www.catboost.ai)
+GPy (https://sheffieldml.github.io/GPy/)
+Tesseract (https://github.com/tesseract-ocr/tesseract)

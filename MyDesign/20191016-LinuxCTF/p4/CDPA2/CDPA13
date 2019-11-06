@@ -1,0 +1,10 @@
+在數論，特別是整除理論中，原根是一個很重要的概念。
+
+對於兩個正整數{\displaystyle (a,m)=1}(a,m)=1，由歐拉定理可知，存在正整數{\displaystyle d\leq m-1}d\leq m-1， 比如說歐拉函數{\displaystyle d=\varphi (m)}d=\varphi (m)，即小於等於{\displaystyle m}m的正整數中與{\displaystyle m}m互質的正整數的個數，使得{\displaystyle a^{d}\equiv 1{\pmod {m}}}a^{d}\equiv 1{\pmod  {m}}。
+
+由此，在{\displaystyle (a,m)=1}(a,m)=1時，定義{\displaystyle a}a對模{\displaystyle m}m的指數{\displaystyle \delta _{m}(a)}{\displaystyle \delta _{m}(a)}為使{\displaystyle a^{d}\equiv 1{\pmod {m}}}a^{d}\equiv 1{\pmod  {m}}成立的最小的正整數{\displaystyle d}d。由前知{\displaystyle \delta _{m}(a)}{\displaystyle \delta _{m}(a)} 一定小於等於 {\displaystyle \varphi (m)}\varphi (m)，若{\displaystyle \delta _{m}(a)=\varphi (m)}{\displaystyle \delta _{m}(a)=\varphi (m)}，則稱{\displaystyle a}a是模{\displaystyle m}m的原根。
+
+可以證明，如果正整數{\displaystyle (a,m)=1}(a,m)=1和正整數 d 滿足{\displaystyle a^{d}\equiv 1{\pmod {m}}}a^{d}\equiv 1{\pmod  {m}}，則 {\displaystyle Ord_{m}(a)}Ord_{m}(a) 整除 d。[1]因此{\displaystyle Ord_{m}(a)}Ord_{m}(a)整除{\displaystyle \varphi (m)}\varphi (m)。在例子中，當{\displaystyle a=3}a=3時，我們僅需要驗證 3 的 2、3 次方模 7 的餘數即可，如果其中有一個是1，則3就不是原根。
+記{\displaystyle \delta =Ord_{m}(a)}\delta =Ord_{m}(a)，則{\displaystyle a^{0},a^{1},a^{2}\cdots ,a^{\delta -1}}a^{0},a^{1},a^{2}\cdots ,a^{{\delta -1}}模 m 兩兩不同餘。因此當{\displaystyle a}a是模{\displaystyle m}m的原根時，{\displaystyle a^{0},a^{1},a^{2}\cdots ,a^{\delta -1}}a^{0},a^{1},a^{2}\cdots ,a^{{\delta -1}}構成模 m 的簡化剩餘系。
+模{\displaystyle m}m有原根的充要條件是{\displaystyle m=2,4,p^{n},2p^{n}}m=2,4,p^{n},2p^{n}，其中{\displaystyle p}p是奇質數，{\displaystyle n}n是任意正整數。
+對正整數{\displaystyle (a,m)=1}(a,m)=1，如果 a 是模 m 的原根，那麼 a 是整數模m乘法群（即加法群 Z/mZ 的可逆元素，也就是所有與 m 互質的正整數構成的等價類構成的乘法群）Zm×的一個生成元。由於Zm×有 {\displaystyle \varphi (m)}\varphi (m)個元素，而它的生成元的個數就是它的可逆元素個數，即 {\displaystyle \varphi (\varphi (m))}\varphi (\varphi (m))個，因此當模{\displaystyle m}m有原根時，它有{\displaystyle \varphi (\varphi (m))}\varphi (\varphi (m))個原根。
