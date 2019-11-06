@@ -5,5 +5,5 @@
 * Content:
 	* Introduction to CTF and contest
 	* [Python Basic](https://hackmd.io/@CDPA/PythonCTF#/)
-	* basic Cryptography (traditional crypto)
+	* basic Cryptography (classical crypto)
 	* [Linux skill](https://hackmd.io/@CDPA/LinuxCTF#/)
