@@ -4,5 +4,6 @@
 * Lecturer: Sophie Shin
 * Content:
 	* Introduction to CTF and contest
-	* python skill
+	* [Python Basic](https://hackmd.io/@CDPA/PythonCTF#/)
 	* basic Cryptography (traditional crypto)
+	* [Linux skill](https://hackmd.io/@CDPA/LinuxCTF#/)
